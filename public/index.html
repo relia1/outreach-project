@@ -1,22 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="h-100">
+
   <head>
-    <meta charset="utf-8">
-    <meta name="generator" content="GitLab Pages">
-    <title>Plain HTML site using GitLab Pages</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outreach Project</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Including header/footer -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(function() {
+        $('#header').load('header.html');
+      });
+    </script>
   </head>
-  <body>
-    <div class="navbar">
-      <a href="https://pages.gitlab.io/plain-html/">Plain HTML Example</a>
-      <a href="https://gitlab.com/pages/plain-html/">Repository</a>
-      <a href="https://gitlab.com/pages/">Other Examples</a>
+
+  <body class="d-flex flex-column h-100">
+  <div id="header"></div>
+
+  <!-- Begin page content -->
+  <main class="flex-shrink-0">
+    <div class="container">
+      <h1>Outreach Project</h1>
+      <p>
+        There are many models which can describe sustainability, a common method is the three pillars
+        of sustainability.<a href="/outreach-project/public/references.html">[1]</a> We can apply these models to how
+        energy is generated and see how sustainable they are. Ideally sustainable energy generation can be viewed as a
+        way to generate energy that does not take away from the environment, society, or the economy. Depending on what
+        your views are, it is possible to have ideologies of sustainability that do not maintain all 3 pillars. This
+        website will go on to explore different types of energy and additional information regarding energy and also
+        pros and cons of the types of energy generation. e.g. Maybe it is cheaper to initially produce, or potentially
+        it has a substantial environmental impact. I will later explore 3 additional sections as well. Such as pandemic
+        impact, actions that could be taken, and my beliefs/opinion on moral obligations regarding energy sustainability.
+      </p>
     </div>
+  </main>
 
-    <h1>Hello World!</h1>
+  <footer class="footer mt-auto py-3 bg-dark">
+    <div class="container">
+      <span class="text-light">&copy; 2023 Outreach Project. All rights reserved.</span>
+    </div>
+  </footer>
 
-    <p>
-      This is a simple plain-HTML website on GitLab Pages, without any fancy static site generator.
-    </p>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
+
+
+
+
